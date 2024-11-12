@@ -11,12 +11,41 @@ import {
   Text,
 } from "@react-email/components";
 import { Tailwind } from "@react-email/tailwind";
+interface EmailTemplateProps {
+  message: string;
+  senderEmail: string;
+}
 
+export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
+  message, senderEmail
+}) => (
+    <Html>
+      <Head />
+      <Preview>New message from your portfolio site</Preview>
+      <Tailwind>
+        <Body className="bg-slate-100 text-black">
+          <Container>
+            <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
+              <Heading className="leading-tight">
+                You received the following message from the contact form
+              </Heading>
+              <Text>{message}</Text>
+              <Hr />
+              <Text>The sender's email is: {senderEmail}</Text>
+            </Section>
+          </Container>
+        </Body>
+      </Tailwind>
+    </Html>
+);
+
+/*
 type ContactFormEmailProps = {
   message: string;
   senderEmail: string;
 };
-
+*/
+/*
 export default function ContactFormEmail({
   message,
   senderEmail,
@@ -26,7 +55,7 @@ export default function ContactFormEmail({
       <Head />
       <Preview>New message from your portfolio site</Preview>
       <Tailwind>
-        <Body className="bg-gray-100 text-black">
+        <Body className="bg-slate-100 text-black">
           <Container>
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
               <Heading className="leading-tight">
@@ -42,3 +71,4 @@ export default function ContactFormEmail({
     </Html>
   );
 }
+  */

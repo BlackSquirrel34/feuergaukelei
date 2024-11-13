@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import strapiImg from "@/public/strapi-react-blog.png";
+import sportsImg from "@/public/sports-store.png";
+import travellersImg from "@/public/travellers-lounge.png";
+import dentistImg from "@/public/dentist-home.png";
 
 export const links = [
   {
@@ -63,25 +64,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "React Strapi Blog",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A blogging application fetching the posts from the headless strapi CMS via a json API.",
+    tags: ["React", "Tailwind"],
+    imageUrl: strapiImg,
   },
   {
-    title: "rmtDev",
+    title: "Sport Shop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Node web application listing products retrieved from a database by category. Including pagination and shopping cart functionality.",
+    tags: ["React", "TypeScript", "Node.js"],
+    imageUrl: sportsImg,
   },
   {
-    title: "Word Analytics",
+    title: "Traveller's Lounge",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A travel recommendation website with Home, About and Contact Page. Allows to search for destinations based on keywords.",
+    tags: ["JavaScript", "HTML", "CSS"],
+    imageUrl: travellersImg,
+  },
+  {
+    title: "Dentist Website",
+    description:
+      "Implements a Bootstrap template with a Django backend, including navigation, template inheritance, template tags, and functional email contact forms.",
+    tags: ["Django", "Python", "HTML", "CSS"],
+    imageUrl: dentistImg,
   },
 ] as const;
 

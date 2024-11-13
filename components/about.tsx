@@ -32,30 +32,26 @@ useEffect(() => {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        After graduating with a Master of Science in{" "}
+        <span className="italic">Computing in the Humanities</span>, I decided to further specialize in Full-Stack Development.
+        I enrolled in a Professional Certificate program and learned to{" "}
+        <span className="font-medium">build, deploy, test, run, and manage full-stack applications.</span>{" "}
         <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        problem-solving aspect. I enjoy the feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . TypeScript and Python with Django are also familiar to me. I am always looking to
+        learn new technologies. Currently, I am looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      <span className="italic">When I'm not coding</span>, I'll be probably practicing  <span className="font-medium">flow arts</span>,{" "}
+        <span className="font-medium">read a book </span> about some topic that got me hooked,
+         or <span className="font-medium">meet up with friends.</span> 
       </p>
     </motion.section>
   );

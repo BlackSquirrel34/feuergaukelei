@@ -34,29 +34,30 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Student Research Assistant",
+    location: "University of Bamberg",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I developed my first web application in Django, with help and feedback from a senior developer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "IBM Full-Stack JavaScript Developer",
+    location: "IBM Skills Network via Coursera",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "For obtaining this professional certificate, I had to show my ability to build cloud-native full-stack applications using JavaScript.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Bamberg",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a Full-Stack developer working as a freelancer. My stack includes React, Node.js, Next.js, TypeScript, Tailwind, and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
@@ -94,14 +95,11 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
+  "SQL",
   "Python",
   "Django",
   "Framer Motion",
+  "Java",
 ] as const;

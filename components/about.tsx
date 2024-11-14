@@ -49,7 +49,7 @@ useEffect(() => {
       </p>
 
       <p>
-      <span className="italic">When I'm not coding</span>, I'll be probably practicing  <span className="font-medium">flow arts</span>,{" "}
+      <span className="italic">When I&apos;m not coding</span>, I&apos;ll be probably practicing  <span className="font-medium">flow arts</span>,{" "}
         <span className="font-medium">read a book </span> about some topic that got me hooked,
          or <span className="font-medium">meet up with friends.</span> 
       </p>

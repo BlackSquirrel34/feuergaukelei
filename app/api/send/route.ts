@@ -8,9 +8,6 @@ import { validateString, getErrorMessage } from "@/lib/utils";
 // console.log("API key before", process.env.RESEND_API_KEY)
 const resend = new Resend(process.env.RESEND_API_KEY); // Ensure this is reading the variable
 
-
-import { NextResponse } from 'next/server';
-
 export async function POST(req: Request) {
   try {
     const { email, message } = await req.json(); // Parse the JSON body

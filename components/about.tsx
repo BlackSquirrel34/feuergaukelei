@@ -42,14 +42,14 @@ useEffect(() => {
         <span className="font-medium">
           React, Node.js, and MongoDB
         </span>
-        . TypeScript and Python with Django are also familiar to me. I am always looking to
+        . TypeScript, Next.js and Python with Django are also familiar to me. I am always looking to
         learn new technologies. Currently, I am looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
 
       <p>
-      <span className="italic">When I&apos;m not coding</span>, I&apos;ll be probably practicing  <span className="font-medium">flow arts</span>,{" "}
+      <span className="italic">When I&apos;m not coding</span>, I&apos;ll be probably practicing  <span className="font-medium">acrobatics or flow arts</span>,{" "}
         <span className="font-medium">read a book </span> about some topic that got me hooked,
          or <span className="font-medium">meet up with friends.</span> 
       </p>

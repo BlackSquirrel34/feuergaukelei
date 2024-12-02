@@ -1,3 +1,4 @@
+/*
 // test with this: "use server";
 
 import { EmailTemplate } from '@/email/contact-form-email';
@@ -45,3 +46,4 @@ export async function POST(req: Request) {
     }, { status: 500 }); // Return a proper error response
   } 
 }
+  */

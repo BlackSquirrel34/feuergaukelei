@@ -47,3 +47,7 @@ export async function POST(req: Request) {
   } 
 }
   */
+
+ // Ensure that the file is recognized as a module
+export {};
+// remove this, for real use it should not be there

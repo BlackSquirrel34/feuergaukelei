@@ -14,7 +14,6 @@ interface AltchaPopupProps {
 const AltchaPopup: React.FC<AltchaPopupProps> = ({ onClose }) => {
   const [isSubmitSuccess, setisSubmitSuccess] = useState(false); // Track verification status
   const [errorMessage, setErrorMessage] = useState('');
-  const [isLoading, setIsLoading] = useState(false); // Optional loading state
 
   // language switching
   const { currentlanguage } = useLanguage(); // Get current language state

@@ -1,21 +1,18 @@
-import Intro from "@/components/intro";
-import SectionDivider from "@/components/section-divider";
-import About from "@/components/about";
-import Projects from "@/components/projects";
-import Experience from "@/components/experience";
-import Skills from "@/components/skills";
+import Welcome from "@/components/home";
 import Contact from "@/components/contact";
+import ImageGallery from "@/components/gallery"
+import FAQAccordeon from "@/components/faq"
+import Fireshows from "@/components/feuershows"
+import VideoBlock from "@/components/videoblock"
+import Einladung from "@/components/einladung"
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
-      <Intro />
-      <SectionDivider />
-      <About />
-      <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
+      <Welcome />
+      <ImageGallery />
+      <VideoBlock />
+      <Einladung />
     </main>
   )
 }

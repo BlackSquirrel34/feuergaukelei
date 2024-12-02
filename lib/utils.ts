@@ -1,3 +1,24 @@
+// altcha setup
+import crypto from "crypto"
+import { ALTCHA_SECRET } from '@/lib/constants';
+
+export function generateSalt(length = 20) {
+  return crypto.randomBytes(length).toString("hex")
+}
+
+export function generateHmacKey() {
+  const hmac = crypto.createHmac("sha256", ALTCHA_SECRET)
+
+  return hmac.digest("hex")
+}
+
+export function generateSignature(message: string) {
+  const hmac = crypto.createHmac("sha256", ALTCHA_SECRET)
+  hmac.update(message)
+  return hmac.digest("hex")
+}
+
+// custom email validation
 export const validateString = (
     value: unknown,
     maxLength: number

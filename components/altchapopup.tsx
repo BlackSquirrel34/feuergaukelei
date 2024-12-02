@@ -6,8 +6,12 @@ import { FaFire } from 'react-icons/fa'; // Import the fire icon
 import { useLanguage } from '@/context/language-context';
 import { english, german } from '@/lib/data';
 
+// Define the type for the props
+interface AltchaPopupProps {
+  onClose: () => void; // Adjust the type based on the actual signature of onClose
+}
 
-const AltchaPopup = ({ onClose }) => {
+const AltchaPopup: React.FC<AltchaPopupProps> = ({ onClose }) => {
   const [isSubmitSuccess, setisSubmitSuccess] = useState(false); // Track verification status
   const [errorMessage, setErrorMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false); // Optional loading state

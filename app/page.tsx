@@ -1,8 +1,5 @@
 import Welcome from "@/components/home";
-import Contact from "@/components/contact";
 import ImageGallery from "@/components/gallery"
-import FAQAccordeon from "@/components/faq"
-import Fireshows from "@/components/feuershows"
 import VideoBlock from "@/components/videoblock"
 import Einladung from "@/components/einladung"
 
